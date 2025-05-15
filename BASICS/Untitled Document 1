@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main(){
+	int pressure;
+	
+
+	printf("Enter the blood pressure\n");
+	scanf("%d",&pressure);
+  	
+	
+	if(x<120){
+	
+	printf("normal");
+	}
+	else if(x>=x<=139){
+	minus_sum=minus_sum+x;
+	printf("%d",minus_sum);
+	}
+	else if(x>0){
+	plus_sum=plus_sum+x;
+	printf("%d",plus_sum);
+	}
+	
+	else{
+	printf("NO Value Found");
+	}
+	
+	
+	
+	
+}
